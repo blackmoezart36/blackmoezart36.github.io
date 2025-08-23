@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Preston Sennet — Portfolio</title>
+  <meta name="description" content="Preston Sennet — Web Developer & AI Integrator. Projects, skills, and contact." />
+
+  <!-- Google Font (optional) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Your CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <a href="#top" class="brand">Preston Sennet</a>
+      <nav class="nav-links" aria-label="Primary">
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <button id="themeBtn" class="btn ghost" aria-label="Toggle theme">🌓</button>
+        <button id="menuBtn" class="btn ghost mobile-toggle" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top">
+    <!-- Hero -->
+    <section class="hero container">
+      <div class="hero-grid">
+        <div>
+          <div class="kicker">Web Developer • AI Integrator</div>
+          <h1>Hi, I’m <span class="brand-accent">Preston Sennet</span>. I build clean web apps and add practical AI where it helps.</h1>
+          <p class="lead">Focused on fast, reliable solutions for small businesses: websites, automations, and helpful chatbots. I ship on time and document everything.</p>
+          <div class="hero-cta">
+            <a class="btn primary" href="#projects">See Projects</a>
+            <a class="btn" href="resume.pdf" download>Download Résumé</a>
+            <a class="btn ghost" href="psennet444@gmail.com">Email Me</a>
+          </div>
+        </div>
+        <div class="card">
+          <!-- Replace with /images/avatar.jpg in your repo -->
+          <img class="avatar" alt="psennetSFC.jpg"
+               src="psennetSFC.jpg"
+               onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22800%22 height=%22800%22%3E%3Crect width=%22100%25%22 height=%22100%25%22 fill=%22%23121821%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 dominant-baseline=%22middle%22 text-anchor=%22middle%22 font-family=%22Arial%22 font-size=%2236%22 fill=%22%239fb0c2%22%3EYour Photo%3C/text%3E%3C/svg%3E';" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="container">
+      <h2>Featured Projects</h2>
+      <p class="muted">A few quick demos you can clone, deploy, and extend.</p>
+      <div class="grid">
+        <article class="card project">
+          <h3>Restaurant FAQ Chatbot</h3>
+          <p class="muted">Embeddable AI widget that answers hours, menu, and booking FAQs for a local restaurant.</p>
+          <div class="tags">
+            <span class="tag">HTML</span><span class="tag">JS</span><span class="tag">AI API</span>
+          </div>
+          <p><a href="#" aria-label="View live demo">Live Demo</a> · <a href="#" aria-label="View source code">Source</a></p>
+        </article>
+        <article class="card project">
+          <h3>Email Reply Automator</h3>
+          <p class="muted">Python script that drafts replies to common inquiries and saves as drafts.</p>
+          <div class="tags">
+            <span class="tag">Python</span><span class="tag">Automation</span><span class="tag">CLI</span>
+          </div>
+          <p><a href="#">README</a> · <a href="#">Source</a></p>
+        </article>
+        <article class="card project">
+          <h3>One-Page Business Site</h3>
+          <p class="muted">Clean, mobile-first landing page with contact form and basic analytics.</p>
+          <div class="tags">
+            <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Netlify</span>
+          </div>
+          <p><a href="#">Live Demo</a> · <a href="#">Source</a></p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="container">
+      <h2>Skills</h2>
+      <div class="chips">
+        <span class="chip">HTML</span>
+        <span class="chip">CSS</span>
+        <span class="chip">JavaScript</span>
+        <span class="chip">Python</span>
+        <span class="chip">Flask</span>
+        <span class="chip">APIs</span>
+        <span class="chip">Git & GitHub</span>
+        <span class="chip">Automation</span>
+        <span class="chip">Prompt Design</span>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="container">
+      <h2>About</h2>
+      <div class="about-grid">
+        <div class="card">
+          <p>I’m a web developer who enjoys turning ideas into useful, simple tools. I care about maintainable code, clear documentation, and shipping.</p>
+          <ul>
+            <li>Building: small biz sites, chatbots, and automations</li>
+            <li>Stack: HTML/CSS/JS, Python, basic SQL</li>
+            <li>Currently learning: full-stack patterns & deployment</li>
+          </ul>
+        </div>
+        <div class="stat">
+          <div>📦</div>
+          <div>
+            <strong>Starter Kit</strong>
+            <p class="muted">This portfolio is split across HTML/CSS/JS. Drop these files into a public GitHub repo and enable Pages to go live in minutes.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="container">
+      <h2>Contact</h2>
+      <p class="muted">Want something built or fixed? Reach out.</p>
+      <div class="contact-cta">
+        <a class="btn primary" href="mailto:psennet444@gmail.com">Email</a>
+        <a class="btn" href="https://github.com/blackmoezart36" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn" href="https://www.linkedin.com/in/prestonsennet/" target="_blank" rel="noopener">linkedin</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-row">
+        <span>© <span id="year"></span> Your Name</span>
+        <span class="muted">Last updated <span id="lastUpdated"></span></span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Your JS -->
+  <script src="script.js"></script>
+
+  <!--
+  QUICK SETUP (GitHub Pages)
+  1) Replace “Your Name” and links above.
+  2) (Optional) Add resume.pdf to repo root; button will download it.
+  3) Push this folder to a public repo named yourusername.github.io OR any repo + enable Pages.
+  4) Settings → Pages → Source: main → /(root). Wait 1–3 minutes.
+  5) Your site: https://yourusername.github.io/ (or /reponame/ if not special repo).
+  -->
+</body>
+</html>
